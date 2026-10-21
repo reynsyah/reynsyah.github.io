@@ -1,0 +1,96 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    width: 85px;
+    height: 85px;
+    background: #6c63ff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.subtitle {
+    color: #777;
+    margin: 8px 0 20px;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    color: #6c63ff;
+}
+
+.card p {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #444;
+    text-align: left;
+}
+
+button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #5148d8;
+}
+
+#pesan {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+}
+```
